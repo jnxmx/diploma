@@ -7,7 +7,7 @@ function setup() {
     cnv = createCanvas(210, 297, SVG);
     pdf = createPDF();
     pdf.beginRecord();
-  myFont = loadFont('fonts/Faune-TextRegular.otf');
+  myFont = loadFont('Faune-TextRegular.otf');
   cnv.mousePressed(readyToPrint);
     input = createInput();
   input.position(210, 105);
